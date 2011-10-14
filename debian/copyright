@@ -23,7 +23,8 @@ License: BSD-2
   SUCH DAMAGE.
 
 Files: debian/*
-Copyright: © 2007-2010 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: © 2011 Torsten Wohlfarth <towo@siduction.org> 
+           © 2007-2010 Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: BSD-2
   The Debian packaging information is licensed under the 2 clause BSD license.
 
