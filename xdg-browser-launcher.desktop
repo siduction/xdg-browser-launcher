@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=x-www-browser %U
+Icon=xdg-browser-launcher
+Name=xdg-browser-launcher
+GenericName=Generic Web Browser
+GenericName[ru]=Веб-браузер
+Categories=Application;Network;

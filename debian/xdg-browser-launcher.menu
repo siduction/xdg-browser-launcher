@@ -1,0 +1,7 @@
+?package(xdg-browser-launcher):needs="X11" \
+	section="Applications/Network/Web Browsing" \
+	hints="aptosid,Net" \
+	title="xdg-browser-launcher" \
+	icon32x32="/usr/share/pixmaps/xdg-browser-launcher.xpm" \
+	icon16x16="/usr/share/pixmaps/xdg-browser-launcher-16.xpm" \
+	command="x-www-browser"

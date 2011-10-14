@@ -1,0 +1,299 @@
+xdg-browser-launcher (0.2.5) unstable; urgency=low
+
+  * Forked package from aptosid.
+
+ -- Torsten Wohlfarth <t.wohlfarth@gmx.de>  Fri, 14 Oct 2011 14:49:04 +0200
+
+xdg-browser-launcher (0.2.4) unstable; urgency=low
+
+  * bump standards version to 3.9.2, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 05:11:17 +0200
+
+xdg-browser-launcher (0.2.3) unstable; urgency=low
+
+  * drop transitional meta package.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 21 Jan 2011 14:11:12 +0100
+
+xdg-browser-launcher (0.2.2) unstable; urgency=low
+
+  * fix x-un-i's mail address.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 06 Oct 2010 15:13:56 +0200
+
+xdg-browser-launcher (0.2.1) unstable; urgency=low
+
+  * adapt for aptosid.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 26 Aug 2010 02:02:07 +0200
+
+xdg-browser-launcher (0.2.0) unstable; urgency=low
+
+  * rename to xdg-browser-launcher.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Aug 2010 23:14:31 +0200
+
+sidux-browser (0.1.23) unstable; urgency=low
+
+  * switch to compat level 8.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:18:58 +0200
+
+sidux-browser (0.1.22) unstable; urgency=low
+
+  * bump standards version to 3.9.1, no changes necessary.
+  * elaborate long description a bit further, to make lintian happy.
+  * regenerate icons.
+  * don't reference /usr/share/common-licenses/BSD anymore and rely on the full
+    license copy in debian/copright, this fixes
+    copyright-refers-to-deprecated-bsd-license-file.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Aug 2010 03:33:10 +0200
+
+sidux-browser (0.1.21) unstable; urgency=low
+
+  * switch to dpkg-source 3.0 (native) format.
+  * bump standards version to 3.8.4, no changes necessary.
+  * update copyright years.
+  * refresh generated icons.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 26 Apr 2010 01:13:48 +0200
+
+sidux-browser (0.1.20) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * update art for 2009-02
+  * convert all bitmaps to new svg art
+  * update copyright for new art
+  * forgot to include copyright
+
+  [ Stefan Lippers-Hollmann ]
+  * generate binary artwork.
+  * bump standards version to 3.8.2, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2009 23:43:59 +0200
+
+sidux-browser (0.1.19) unstable; urgency=low
+
+  * fix copyright to name correct icon svg
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 23 Feb 2009 22:41:27 +1100
+
+sidux-browser (0.1.18) unstable; urgency=low
+
+  * fix desktop-entry-contains-encoding-key.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Feb 2009 17:51:39 +0100
+
+sidux-browser (0.1.17) unstable; urgency=low
+
+  * make lintian happy and depend on ${misc:Depends}.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 23:47:58 +0100
+
+sidux-browser (0.1.16) unstable; urgency=low
+
+  * #495381 is pending fix, general.useragent.locale override shelf life
+    has come.
+
+ -- Kel Modderman <kel@otaku42.de>  Mon, 20 Oct 2008 21:09:13 +1000
+
+sidux-browser (0.1.15) unstable; urgency=low
+
+  * Workaround #495381 by overriding xulrunners default
+    general.useragent.locale pref.
+
+ -- Kel Modderman <kel@otaku42.de>  Wed, 08 Oct 2008 22:17:27 +1000
+
+sidux-browser (0.1.14) unstable; urgency=low
+
+  * Bump iceweasel minimum font defaults up to 11, 9 was a tad tiny.
+
+ -- Kel Modderman <kel@otaku42.de>  Fri, 19 Sep 2008 14:59:57 +1000
+
+sidux-browser (0.1.13) unstable; urgency=low
+
+  * Set minimum font size default to 9 as per viniosity advice.
+
+ -- Kel Modderman <kel@otaku42.de>  Fri, 19 Sep 2008 07:03:46 +1000
+
+sidux-browser (0.1.12) unstable; urgency=low
+
+  * Do not explicitly choose a font, let the system do that.
+  * Remove ttf-dejavu from dependencies, not required.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Sep 2008 21:02:48 +1000
+
+sidux-browser (0.1.11) unstable; urgency=low
+
+  * Cleanup comments in sidux-browser.js.
+  * Add some info about the browser tab settings.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Sep 2008 07:53:01 +1000
+
+sidux-browser (0.1.10) unstable; urgency=low
+
+  * Change default font from Bitstream -> DejaVu 12pt.
+  * Add dependency on ttf-dejavu.
+
+ -- Kel Modderman <kel@otaku42.de>  Fri, 05 Sep 2008 22:19:41 +1000
+
+sidux-browser (0.1.9) unstable; urgency=low
+
+  * Provide iceweasel defaults.
+    - install java script config to /usr/share/sidux-browser/ with symlink
+      at /etc/iceweasel/pref/ pointing to it to override default settings
+
+ -- Kel Modderman <kel@otaku42.de>  Tue, 02 Sep 2008 01:28:39 +1000
+
+sidux-browser (0.1.8) unstable; urgency=low
+
+  * bump standards version to 3.8.0, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Jun 2008 19:20:12 +0200
+
+sidux-browser (0.1.7) unstable; urgency=low
+
+  * switch from cdbs to the new dh implementation of debhelper 7.0.0.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 24 Apr 2008 12:11:58 +0200
+
+sidux-browser (0.1.6) unstable; urgency=low
+
+  * appease lintian and write (C) as © in debian/copyright.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 00:45:33 +0100
+
+sidux-browser (0.1.5) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * convert remaining text object in svg icon
+
+  [ Stefan Lippers-Hollmann ]
+  * refresh PNG graphics.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 22 Jan 2008 14:26:33 +0100
+
+sidux-browser (0.1.4) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * update sidux browser icon, new look, no text objects
+
+  [ Stefan Lippers-Hollmann ]
+  * refresh binary icons based on new svg source.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 22 Jan 2008 13:04:40 +0100
+
+sidux-browser (0.1.3) unstable; urgency=low
+
+  * remove artwork.
+  * rework debian/copyright to be machine readable.
+  * add new artwork from the sidux-art team.
+  * add create-icons target in debian/rules.
+  * remove explicit build-dependency on imagemagick, it's now used in a manual
+    step invoked by the maintainer.
+  * clean up old cruft from XDG desktop files.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 21 Jan 2008 19:00:37 +0100
+
+sidux-browser (0.1.2) unstable; urgency=low
+
+  * update to debhelper compat 6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 19 Jan 2008 02:14:01 +0100
+
+sidux-browser (0.1.1) unstable; urgency=low
+
+  * sidux-browser.png shouldn't be executable.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 08 Jan 2008 19:50:18 +0100
+
+sidux-browser (0.1.0) unstable; urgency=low
+
+  * drop bogus dependency on sidux-xdg.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 08 Jan 2008 19:47:14 +0100
+
+sidux-browser (0.0.10) unstable; urgency=low
+
+  * Translation thanks to RoEn
+
+ -- Joaquim Boura <x-un-i@berlios.de>  Tue, 18 Dec 2007 13:24:25 +0100
+
+sidux-browser (0.0.9) unstable; urgency=low
+
+  * update to Standards-Version 3.7.3, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 03 Dec 2007 14:12:43 +0100
+
+sidux-browser (0.0.8) unstable; urgency=low
+
+  [ Stefan Lippers-Hollmann ]
+  * add VCS control headers.
+  * update syntax for Vcs headers in debian/control
+
+  [ Kel Modderman ]
+  * Update debian menu section as per new subpolicy.
+
+ -- Kel Modderman <kel@otaku42.de>  Thu, 25 Oct 2007 22:12:05 +1000
+
+sidux-browser (0.0.7) unstable; urgency=low
+
+  * cathbard cleanup of svg
+  * update icons accordingly
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 24 Jul 2007 21:00:12 +1000
+
+sidux-browser (0.0.6) unstable; urgency=low
+
+  * Add debian menu entry. Build-Depend on imagemagick.
+
+ -- Kel Modderman <kel@otaku42.de>  Mon, 18 Jun 2007 22:27:15 +1000
+
+sidux-browser (0.0.5) unstable; urgency=low
+
+  [ Bernard Gray ]
+  * icon updated to "Gear"
+  * delete two planets icon source
+  * add "Gear" source
+  * update copyright to allow multiple art contributors
+  * add "Gear" copyright/license information
+
+  [ Stefan Lippers-Hollmann ]
+  * remove license information for obsoleted artwork no longer distributed
+    with this package.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 21 May 2007 02:17:08 +0200
+
+sidux-browser (0.0.4) unstable; urgency=low
+
+  * don't ship the *.xcf as part of the binary package, d'oh.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 06 May 2007 16:15:41 +0200
+
+sidux-browser (0.0.3) unstable; urgency=low
+
+  [ Joaquim Boura ]
+  * moving to xdg-menus
+
+  [ Stefan Lippers-Hollmann ]
+  * depend on sidux-xdg.
+  * fix *.desktop location.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 31 Mar 2007 04:31:09 +0200
+
+sidux-browser (0.0.2) unstable; urgency=low
+
+  * Reprioritise Depends: field, put konqueror before iceweasel.
+  * Use epiphany-browser as (x-)www-broswer candidate, rather than a
+    "multi-platform clone of Boulder Dash".
+
+ -- Kel Modderman <kel@otaku42.de>  Wed, 24 Jan 2007 15:19:17 +1000
+
+sidux-browser (0.0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Jan 2007 11:16:22 +0100
+

@@ -1,0 +1,18 @@
+Source: xdg-browser-launcher
+Section: web
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.2
+Vcs-Svn: svn://svn.berlios.de/fullstory/xdg-browser-launcher/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/xdg-browser-launcher/trunk/
+
+Package: xdg-browser-launcher
+Architecture: all
+Depends: ${misc:Depends},
+ konqueror | iceweasel | epiphany-browser | www-browser
+Description: abstraction for generic x-www-browser
+ Provides icons and desktop files to use x-www-browser as generic  browser in
+ menus. Also provide custom iceweasel defaults.
+ .
+ This is equivalent to using 'x-www-browser' directly.
