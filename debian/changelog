@@ -1,3 +1,10 @@
+xdg-browser-launcher (0.2.5+nmu2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * deleted all fred.png/xdg and added new xdg-browser-launcher.svg
+
+ -- Ferdinand Thommes <devil@siduction.org>  Thu, 24 Nov 2011 10:14:02 +0100
+
 xdg-browser-launcher (0.2.5+nmu1) unstable; urgency=low
 
   * Non-maintainer upload.
