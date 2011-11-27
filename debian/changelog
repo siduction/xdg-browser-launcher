@@ -1,3 +1,10 @@
+xdg-browser-launcher (0.2.5+nmu3) unstable; urgency=low
+
+  * fix xdg-browser-launcher.svg
+  * Non maintainer upload
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 27 Nov 2011 16:16:34 +0100
+
 xdg-browser-launcher (0.2.5+nmu2) unstable; urgency=low
 
   * Non-maintainer upload.
