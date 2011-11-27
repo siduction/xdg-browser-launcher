@@ -1,3 +1,9 @@
+xdg-browser-launcher (0.2.5+nmu4) unstable; urgency=low
+
+  * forget to rebuild the icons before upload
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 27 Nov 2011 16:23:30 +0100
+
 xdg-browser-launcher (0.2.5+nmu3) unstable; urgency=low
 
   * fix xdg-browser-launcher.svg
