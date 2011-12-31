@@ -1,3 +1,9 @@
+xdg-browser-launcher (0.2.6) unstable; urgency=low
+
+  * set browser.tab.closebuttons to 1 instead of 3
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 31 Dec 2011 15:50:13 +0100
+
 xdg-browser-launcher (0.2.5+nmu4) unstable; urgency=low
 
   * forget to rebuild the icons before upload

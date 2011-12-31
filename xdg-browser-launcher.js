@@ -37,7 +37,7 @@ pref("font.size.variable.x-western",   12);
 // 3
 // Display a single close button at the end of the tab strip (Firefox 1.x behavior)
 //
-pref("browser.tabs.closeButtons", 3);
+pref("browser.tabs.closeButtons", 1);
 pref("browser.tabs.tabMinWidth",  5);
 
 // Something other than purple for visited links
