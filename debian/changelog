@@ -1,3 +1,11 @@
+xdg-browser-launcher (0.2.8) unstable; urgency=low
+
+  * source override  for XSBC-Original-Maintainer
+  * xdg-browser-launcher override for x-www-browser
+  * rebuild fixes #632
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 21 Mar 2012 22:39:32 +0100
+
 xdg-browser-launcher (0.2.7) unstable; urgency=low
 
   * bump standards to 3.9.3

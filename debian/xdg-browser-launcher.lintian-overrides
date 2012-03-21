@@ -1,0 +1,3 @@
+# tell lintian not to complain about x-www-browser
+xdg-browser-launcher: desktop-command-not-in-package
+xdg-browser-launcher: menu-command-not-in-package
