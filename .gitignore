@@ -1,2 +1,10 @@
 debian/files
-debian/xdg-browser-launcher*
+icons/hicolor/
+icons/pixmaps/
+
+debian/xdg-browser-launcher.debhelper.log
+debian/xdg-browser-launcher.postinst.debhelper
+debian/xdg-browser-launcher.postrm.debhelper
+debian/xdg-browser-launcher.substvars
+debian/xdg-browser-launcher/
+

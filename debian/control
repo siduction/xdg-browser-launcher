@@ -2,9 +2,10 @@ Source: xdg-browser-launcher
 Section: web
 Priority: extra
 Maintainer: Torsten Wohlfarth <towo@siduction.org>
+Uploaders: Alf Gaida <agaida@siduction.org>
 XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: debhelper (>= 8)
-Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
 Vcs-Git:  git://git.siduction.org/packages/siduction-repository/xdg-browser-launcher.git
 Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/xdg-browser-launcher.git
 Homepage: http://svn.berlios.de/wsvn/fullstory/xdg-browser-launcher/
