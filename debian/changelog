@@ -1,3 +1,17 @@
+xdg-browser-launcher (2014.01.08) unstable; urgency=medium
+
+  * new date based numbering
+  * copyright new format
+  * new standards 3.9.5
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 08 Jan 2014 18:55:20 +0100
+
+xdg-browser-launcher (0.2.9) unstable; urgency=low
+
+  * added qupzilla and midori 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 05 Oct 2013 00:33:46 +0200
+
 xdg-browser-launcher (0.2.8) unstable; urgency=low
 
   * source override  for XSBC-Original-Maintainer

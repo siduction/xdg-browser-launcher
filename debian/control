@@ -3,17 +3,17 @@ Section: web
 Priority: extra
 Maintainer: Torsten Wohlfarth <towo@siduction.org>
 Uploaders: Alf Gaida <agaida@siduction.org>
-XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Vcs-Git:  git://git.siduction.org/packages/siduction-repository/xdg-browser-launcher.git
 Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/xdg-browser-launcher.git
 Homepage: http://svn.berlios.de/wsvn/fullstory/xdg-browser-launcher/
 
 Package: xdg-browser-launcher
 Architecture: all
-Depends: ${misc:Depends},
- konqueror | iceweasel | epiphany-browser | www-browser
+Depends:
+ ${misc:Depends},
+ konqueror | iceweasel | midori | qupzilla | epiphany-browser | www-browser 
 Description: abstraction for generic x-www-browser
  Provides icons and desktop files to use x-www-browser as generic  browser in
  menus. Also provide custom iceweasel defaults.
