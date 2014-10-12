@@ -2,6 +2,5 @@
 	section="Applications/Network/Web Browsing" \
 	hints="siduction,Net" \
 	title="xdg-browser-launcher" \
-	icon32x32="/usr/share/pixmaps/xdg-browser-launcher.xpm" \
-	icon16x16="/usr/share/pixmaps/xdg-browser-launcher-16.xpm" \
+	icon="/usr/share/pixmaps/xdg-browser-launcher.xpm" \
 	command="x-www-browser"

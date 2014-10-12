@@ -1,3 +1,15 @@
+xdg-browser-launcher (2014.10.13.1) unstable; urgency=low
+
+  * added missed icons 
+
+ -- Angelescu Ovidiu <convbsd@siduction.org>  Mon, 13 Oct 2014 00:19:39 +0300
+
+xdg-browser-launcher (2014.10.13) unstable; urgency=low
+
+  * modified debian/xdg-browser-launcher.menu for icon in fluxbox menu 
+
+ -- Angelescu Ovidiu <convbsd@siduction.org>  Mon, 13 Oct 2014 00:11:33 +0300
+
 xdg-browser-launcher (2014.01.08) unstable; urgency=medium
 
   * new date based numbering
