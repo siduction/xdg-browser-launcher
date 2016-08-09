@@ -1,5 +1,4 @@
-xdg-browser-launcher.desktop    usr/share/applications/siduction/
-icons/xdg-browser-launcher.svg  usr/share/icons/hicolor/scalable/apps/
-icons/hicolor                   usr/share/icons/
-icons/pixmaps                   usr/share/
-xdg-browser-launcher.*          usr/share/xdg-browser-launcher/
+xdg-browser-launcher.desktop	usr/share/applications
+icons/xdg-browser-launcher.svg	usr/share/icons/hicolor/scalable/apps/
+icons/hicolor			usr/share/icons/
+xdg-browser-launcher.*		usr/share/xdg-browser-launcher/

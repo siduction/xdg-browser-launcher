@@ -1,6 +1,0 @@
-?package(xdg-browser-launcher):needs="X11" \
-	section="Applications/Network/Web Browsing" \
-	hints="siduction,Net" \
-	title="xdg-browser-launcher" \
-	icon="/usr/share/pixmaps/xdg-browser-launcher.xpm" \
-	command="x-www-browser"

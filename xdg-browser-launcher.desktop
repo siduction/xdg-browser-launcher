@@ -6,3 +6,4 @@ Name=xdg-browser-launcher
 GenericName=Generic Web Browser
 GenericName[ru]=Веб-браузер
 Categories=Application;Network;
+Keywords=Web;Browser;

@@ -1,84 +1,84 @@
-xdg-browser-launcher (2014.10.13.1) unstable; urgency=low
+xdg-browser-launcher (0.2.15) unstable; urgency=medium
 
-  * added missed icons 
+  [ Stefan Lippers-Hollmann ]
+  * NOT RELEASED YET
 
- -- Angelescu Ovidiu <convbsd@siduction.org>  Mon, 13 Oct 2014 00:19:39 +0300
+  [ Alf Gaida ]
+  * removed qupzilla and midori from dependency alternatives
+  * Bumped Standards to 3.9.8 - no changes needed
 
-xdg-browser-launcher (2014.10.13) unstable; urgency=low
+ -- Alf Gaida <agaida@siduction.org>  Tue, 09 Aug 2016 23:54:03 +0200
 
-  * modified debian/xdg-browser-launcher.menu for icon in fluxbox menu 
+xdg-browser-launcher (0.2.14) unstable; urgency=medium
 
- -- Angelescu Ovidiu <convbsd@siduction.org>  Mon, 13 Oct 2014 00:11:33 +0300
+  * s/iceweasel/firefox/.
 
-xdg-browser-launcher (2014.01.08) unstable; urgency=medium
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 11 Mar 2016 21:09:17 +0100
 
-  * new date based numbering
-  * copyright new format
-  * new standards 3.9.5
+xdg-browser-launcher (0.2.13) unstable; urgency=medium
 
- -- Alf Gaida <agaida@siduction.org>  Wed, 08 Jan 2014 18:55:20 +0100
+  * add qupzilla as alternate dependency.
+  * sort konqueror behind iceweasel and qupzilla, it can no longer be
+    considered to be maintained.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 26 Nov 2015 03:11:11 +0100
+
+xdg-browser-launcher (0.2.12) unstable; urgency=medium
+
+  * drop now obsolete lintian override.
+  * debian/copyright fix lintian syntax complaints (relicense the packaging to
+    ISC as well).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 02 Sep 2015 19:58:13 +0200
+
+xdg-browser-launcher (0.2.11) unstable; urgency=medium
+
+  * use parallel building.
+  * apply the CTTE decision and remove support for the obsolete "Debian Menu
+    System" (#741573).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 02 Sep 2015 19:53:53 +0200
+
+xdg-browser-launcher (0.2.10) unstable; urgency=medium
+
+  * bump standards version to 3.9.6, no changes necessary.
+  * convert to machine readable copyright.
+  * add lintian override for menu-command-not-in-package.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 01:04:35 +0100
 
 xdg-browser-launcher (0.2.9) unstable; urgency=low
 
-  * added qupzilla and midori 
+  * bump standards version to 3.9.5, no changes necessary.
+  * debian/control: switch Vcs tags to github.
+  * refresh icons.
+  * add Keywords entry to XDG desktop files.
 
- -- Alf Gaida <agaida@siduction.org>  Sat, 05 Oct 2013 00:33:46 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 14 Apr 2014 00:24:33 +0200
 
 xdg-browser-launcher (0.2.8) unstable; urgency=low
 
-  * source override  for XSBC-Original-Maintainer
-  * xdg-browser-launcher override for x-www-browser
-  * rebuild fixes #632
+  * bump standards version to 3.9.4, no changes necessary.
 
- -- Alf Gaida <agaida@siduction.org>  Wed, 21 Mar 2012 22:39:32 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 03:39:56 +0100
 
 xdg-browser-launcher (0.2.7) unstable; urgency=low
 
-  * bump standards to 3.9.3
-  * debhelper (>=9) 
-  * bump compat to 9
-  * .gitignore modified
+  * bump standards version to 3.9.3, no changes necessary.
 
- -- Alf Gaida <agaida@siduction.org>  Wed, 21 Mar 2012 17:56:16 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Feb 2012 16:56:14 +0100
 
 xdg-browser-launcher (0.2.6) unstable; urgency=low
 
-  * set browser.tab.closebuttons to 1 instead of 3
+  * update icons.
 
- -- Torsten Wohlfarth <towo@siduction.org>  Sat, 31 Dec 2011 15:50:13 +0100
-
-xdg-browser-launcher (0.2.5+nmu4) unstable; urgency=low
-
-  * forget to rebuild the icons before upload
-
- -- Torsten Wohlfarth <towo@siduction.org>  Sun, 27 Nov 2011 16:23:30 +0100
-
-xdg-browser-launcher (0.2.5+nmu3) unstable; urgency=low
-
-  * fix xdg-browser-launcher.svg
-  * Non maintainer upload
-
- -- Torsten Wohlfarth <towo@siduction.org>  Sun, 27 Nov 2011 16:16:34 +0100
-
-xdg-browser-launcher (0.2.5+nmu2) unstable; urgency=low
-
-  * Non-maintainer upload.
-  * deleted all fred.png/xdg and added new xdg-browser-launcher.svg
-
- -- Ferdinand Thommes <devil@siduction.org>  Thu, 24 Nov 2011 10:14:02 +0100
-
-xdg-browser-launcher (0.2.5+nmu1) unstable; urgency=low
-
-  * Non-maintainer upload.
-  * fixes for #260 xdb-browser-launcher ./debian 
-
- -- Alf Gaida <info@g-com.eu>  Fri, 21 Oct 2011 19:23:14 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 03:51:59 +0100
 
 xdg-browser-launcher (0.2.5) unstable; urgency=low
 
-  * Forked package from aptosid.
+  * switch to compat level 9.
 
- -- Torsten Wohlfarth <t.wohlfarth@gmx.de>  Fri, 14 Oct 2011 14:49:04 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 03:35:01 +0100
 
 xdg-browser-launcher (0.2.4) unstable; urgency=low
 
